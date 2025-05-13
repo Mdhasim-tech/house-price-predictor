@@ -1,0 +1,15 @@
+
+
+# === Flask / Python ===
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+instance/
+.env
+venv/
+venv.bak/
+*.sqlite3
+
+
