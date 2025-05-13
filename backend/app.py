@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 
 #Creating the Flask app
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app, origins=["https://house-price-predictor-frontend.onrender.com"])
 #Registering the blueprint or the route
 app.register_blueprint(predict_bp)
 
